@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+}
+
+header {
+  background-color: #e8a20b;
+  color: white;
+  text-align: center;
+  padding: 18px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* three columns, small gap between the pictures */
+.grid {
+  width: 90%;
+  max-width: 900px;
+  margin: 6px auto 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.info {
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.info h3 {
+  margin: 6px 0;
+  font-size: 18px;
+}
+
+.info ul {
+  margin: 4px 0 0;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 22px;
+}
+
+.place {
+  color: #c4430f;
+}
